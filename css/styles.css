@@ -1,0 +1,8 @@
+.navbar div a {
+  float: left;
+  clear: left;
+}
+
+.logo {
+  width: 150px;
+}
