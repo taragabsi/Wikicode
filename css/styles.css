@@ -1,8 +1,194 @@
-.navbar div a {
+.container {
+  margin-left: 0;
+}
+body {
+background-color: #f8f9fa;
+}
+#main {
+  margin-top: 5px;
+  border: 1px solid skyblue;
+  background-color: white;
+  padding: 25px;
+  height: 1300px;
+}
+
+#articles {
+  background-color: #d5fdf4;
+}
+
+#news {
+  background-color: #d5fdf4;
+}
+
+#other div div img {
+  padding-top: 10px;
+  width: 50px;
+  float: left;
+}
+
+.title-g {
+  background-color: lightgreen;
+  border: 1px solid darkgreen;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 4px;
+  font-weight: bold;
+  font-size: 14pt;
+}
+#bulletlist {
+  padding-left: 10px;
+}
+#pics {
+  background-color: #ffe1ff;
+}
+#other {
+  background-color: white;
+}
+
+.title-w {
+  background-color: lightgrey;
+  border: 1px solid grey;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 4px;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+
+.title-p {
+  background-color: thistle;
+  border: 1px solid purple;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 4px;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.title-b {
+  background-color: lightblue;
+  border: 1px solid darkblue;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 4px;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.nav-bar div a {
   float: left;
   clear: left;
+}
+.well {
+  border-radius: 0px;
+}
+#welcome {
+}
+
+#welcome div div h2 {
+  font-size: 18pt;
+  font-weight: 500;
+}
+
+#welcome div #leftone *:not(a) {
+  text-align: center;
+  padding-right: 100px;
+}
+
+#welcome div #rightone div div ul li {
+  padding-bottom: 5px;
+}
+
+#page-top {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+#page-top a {
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right:0;
+}
+#col1 {
+  height: 1000px;
+  margin-right: 0;
+}
+#col2 {
+}
+
+.pagetab a {
+  color: black;
+}
+
+.nav-bar {
+  float: left;
+  background-color: #f8f9fa;
+  width: 150px;
+  height: 1000px;
+  margin-left: -15px;
+}
+.pagetab {
+  float: left;
+  padding: 4px 0;
+}
+.col-md-4 ul li {
+  font-size: 10pt;
+}
+.pagetab a {
+  padding: 4px 14px;
+}
+
+.searchbar {
+  float: right;
+  overflow: hidden;
+}
+
+.searchbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 4px 14px;
+  text-decoration: none;
+}
+
+.searchbar a.active {
+  background-color: white;
+  color: black;
+}
+
+.searchbar input [type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 .logo {
   width: 150px;
+  margin-bottom: 20px;
+}
+
+.underlined {
+  font-family: sans-serif;
+  font-size: 10pt;
+  font-weight: 200;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.footbar {
+  padding: 30px;
+}
+
+.footbar p {
+  font-size: 8pt;
 }
